@@ -2,7 +2,7 @@
 
 ### *Deep Reinforcement Learning Agent for Grid-Scale Battery Optimization*
 
-![Cumulative Profit](images/full_benchmark_result_v2.jpg)
+![Cumulative Profit](images/full_benchmark_result_v2.png)
 *(Figure 1: Cumulative Profit Comparison (2019-2025). The RL Agent (Orange) maintains a consistent ~75% efficiency against the theoretical maximum calculated by Gurobi (Pink), even as total profits scale into the millions.)*
 
 ## 🚀 Executive Summary
@@ -66,7 +66,7 @@ Exact performance metrics benchmarked against the mathematical optimum:
 ## 🔬 Visualizing Agent Behavior
 Below is a 14-day snapshot of the agent's behavior in **January 2025**.
 
-![Agent Strategy](images/agent_strategy_2025.jpg)
+![Agent Strategy](images/agent_strategy_2025.png)
 * **Blue Line:** Spot Price (DKK).
 * **Orange Line:** Battery State of Charge (SoC).
 * **Analysis:** The agent correctly identifies daily price peaks, discharging (orange drops) exactly when the blue line peaks. It also demonstrates "patience," holding charge during minor fluctuations and waiting for the global daily maximum.
