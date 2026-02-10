@@ -1,0 +1,22 @@
+# Core RL & Optimization
+gymnasium==1.2.3
+stable_baselines3==2.7.1
+gurobipy==13.0.1
+torch>=2.0.0
+tensorboard==2.20.0
+
+# Data Manipulation
+pandas==3.0.0
+numpy==2.4.2
+
+# Visualization & UI
+matplotlib==3.10.8
+mplcyberpunk==0.7.6
+rich==14.3.2
+tqdm==4.67.3
+colorama==0.4.6
+
+# Utilities
+protobuf==6.33.5
+python-dateutil==2.9.0.post0
+pytz
